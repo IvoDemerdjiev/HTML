@@ -1,0 +1,100 @@
+#Form{
+	font-size:20px;
+	font-weight: bold;
+}
+table,tr,td{
+	 border: 1px solid black;
+	 border-collapse: collapse;
+	 height: 25px;
+}
+.RequestedDetails{
+	width: 150px;
+	text-align: right;
+	padding: 5px;
+}
+.TdSize{
+	width: 270px;
+}
+.PersonalDetails{
+   padding: 3px;
+   padding-right: 1px;
+   width: 250px;
+   border-width:3px;	
+   border-style:inset;
+}
+.Address{
+	text-align: right;
+	height: 70px;
+	padding: 6px;
+}
+.AddressDetails{
+	border-width:3px;	
+    border-style:inset;
+	width: 240px;
+	height: 60px;
+	position: relative;
+	text-align: left;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+
+.City{
+	border-width:3px;	
+    border-style:inset;
+}
+.State{
+	border-width:3px;	
+    border-style:inset;
+	width: 35px;
+	margin-left: 5px;
+}
+.Zip{
+	border-width:3px;	
+    border-style:inset;
+	width: 80px;
+	margin-left: 5px;
+}
+.Country{
+	border-width:3px;	
+    border-style:inset;
+	width: 180px;
+	height: 25px;
+}
+.Phone{
+	width: 180px;
+}
+.number{
+	border-width:3px;	
+    border-style:inset;
+	width: 67px;
+}
+.Birth{
+	border-width:3px;	
+    border-style:inset;
+	width: 27px;
+}
+span{
+	font-weight: normal;
+	font-size:15px; 
+}
+.Gender{
+    border-width:3px;	
+    border-style:inset;
+	margin-left:5px; 
+	height: 25px;
+}
+.Comments{
+	height: 100px;
+}
+.Request{
+	height: 80px;
+	width: 250px;
+	margin-left:5px;
+    border-width:3px;	
+    border-style:inset; 
+}
+.Options{
+	background-color:#d1ede1;
+	text-align: center;
+	height:30px;
+}

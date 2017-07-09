@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" 
+     href="CSSUsed/RegistrationForm.css">
+</head>
+<body>
+	 <table id="Form">
+	<tr>
+	    <td class="RequestedDetails">
+	    <label> Last Name</label></td>
+		<td class="TdSize">
+		<input class="PersonalDetails" 
+		type="text"
+		value="Nakov" 
+		required="true"
+	    pattern="[A-Za-z].{2,}"/></td>
+	</tr>
+	<tr>
+	    <td class="RequestedDetails">
+	    <label >First Name</label></td>
+		<td class="TdSize">
+		<input class="PersonalDetails" 
+		type="text"
+		value="Svetlin" 
+		required="true"
+	    pattern="[A-Za-z].{2,}"/></td>
+	</tr>
+	<tr>
+	    <td class="Address">
+	    <label>Address</label></td>
+		<td class="TdSize">
+		<textarea class="AddressDetails">17 Hristo Botev Str.
+floor 3. apt. 12
+		</textarea>
+		</td>
+	</tr>
+    <tr>
+	    <td class="RequestedDetails">
+	    <label>City</label></td>
+		<td >
+		<input class="City" 
+		type="text"
+		value="Kaspichan"/>
+		State<input class="State" type="text"/>
+	    </td>
+	</tr>
+	<tr>
+	    <td class="RequestedDetails">
+	    <label >Zip/Postal Code</label></td>
+		<td>
+		<input class="Zip"
+		type="text"
+		value="9325"/></td>
+	</tr>
+	<tr>
+	    <td class="RequestedDetails">
+	    <label >Country</label></td>
+		<td><select class="Country">
+		       <option>Bulgaria</option>
+			   <option>England</option>
+			   <option>Ghana</option>
+			</select></td>   
+	</tr>
+		<tr>
+		  <td class="Phone">Phone&#40;country code,
+		  area code,number &#41;</td>
+		  <td>&#40;+<input class="number" type="text" value="359" /> &#41;
+		  <input class="number" type="text" 
+		  value="88" /> &#45;
+		  <input class="number" type="text" 
+		  value="8334343" />
+		  </td>
+		</tr>
+		 <td class="RequestedDetails">
+	    <label >E-Mail</label></td>
+		<td class="TdSize">
+		<input class="PersonalDetails" 
+		type="text"
+		value="nakov@kaspichan.org"/></td>
+		<tr>
+		  <td class="RequestedDetails">
+		  <label>Birth date</label>
+		  </td>
+		  <td>
+		  <span>Month</span>
+		  <input class="Birth" type="text" value="06"/>
+		  <span>Day</span>
+		  <input class="Birth" type="text" 
+		  value="14" />
+		  <span>Year &#40;4digit&#41;</span>
+		  <input class="Birth" type="text" 
+		  value="1980" />
+		  </td>
+	</tr>
+    <tr>
+	    <td class="RequestedDetails">
+	    <label>Gender</label></td>
+		<td><select class="Gender">
+		       <option>Male</option>
+			   <option>Female</option>
+			</select></td> 
+	</tr>
+	<tr>
+	    <td class="RequestedDetails">
+	    <label >Starting date</label></td>
+		<td>
+		<input type="radio" name="Sison" value="Spring 2015" checked="checked" >
+		<span>Spring 2006</span>
+		<input type="radio" name="Sison" value="Summer 2015" >
+		<span>Summer 2006</span>
+		</td>
+	</tr>
+	<tr>
+	    <td class="Comments">
+	    <label>Comments/Questions</label></td>
+		<td class="TdSize">
+		<textarea class="Request">Please send me more information
+about the lodging.
+		</textarea>
+		</td>
+	</tr>
+	<tr class="Options">
+		  <td  class="Options" colspan="2">
+		  <input type="submit" value="Submit"/>
+		  <input type="reset" 
+		  value="Clear This form"></td>
+		</tr>
+	</table>
+</body>
+</html>

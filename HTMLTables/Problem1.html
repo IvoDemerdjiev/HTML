@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+ <html>
+   <head>
+      <title>HTML Tables</title>
+	   <style>
+	      table, th, td{
+		       border:1px solid;
+			   border-style: ridge;
+			   border-collapse:collapse;
+			   text-align:center;
+			   font-weight:bold;
+          }
+		  .J{
+		        padding-left:20px;
+		        text-align:right; 
+                vertical-align:bottom;
+		  }
+		  .C{
+		    text-align:left;
+		  }
+		  .movingRight{
+		   text-align:right;
+		  }
+	   </style>
+   </head>   
+   <body>
+     <table  cellpadding="5">
+      <tr>
+        <td colspan="3">Title goes here</td>
+        <td>A</td> 
+        <td class="movingRight" >B</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="C">C</td>
+        <td>D</td> 
+        <td>E</td>
+		<td>F</td>
+		<td class="movingRight" >G</td>
+      </tr>
+	  <tr>
+	    <td>H</td>
+		<td colspan="2">I</td>
+		<td rowspan="2" colspan="4" class="J">J</td>
+	  </tr>
+	  <tr> 
+		<td>K</td>
+		<td>L</td>
+		<td>M</td>
+	  </tr>
+	  <tr>
+	     <td class="movingRight">N</td>
+		 <td colspan="4">O</td>
+	  <tr>
+     </table>	  
+   </body>
+ </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+ <html>
+   <head>
+      <title>HTML Form</title>
+	  <style>
+	   p{
+	   margin:1px;
+	   font-size:20px;
+	   font-weight:italic;
+	   }
+	  </style>
+   </head>
+  <body>
+    <form>
+	 <div>
+	 <p><label for="Mname">Member name:</label>
+	 <input type="Name" 
+	 required="true"
+	 pattern="[A-Za-z].{1,}"/><strong>*req</strong>
+	 </p>
+	 <p><label for="Email">Email:</label>
+	 <input type="Email" 
+	 required="true"/><strong>*req</strong>
+	 </p>
+	 <p><label for="School">School:</label>
+	 <input type="text"
+	 required="true"/><strong>*req</strong>
+	 <p>
+	 <input type="image" src="Submit.png" 
+	 name="submit" />
+	 </p>
+	 </div>
+	</form>
+  </body>
+ </html>
